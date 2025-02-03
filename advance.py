@@ -16,10 +16,10 @@ elif n == 2:
 elif n % 2 == 0:
     print(f"{n}は素数ではありません")
 
-# 3以降の奇数のみを調べれば良い
+# 3以降の奇数のみをループで調べれば良い
 else:
     # nの平方根をint型に修正する必要あり
-    for i in range(2, int(math.sqrt(n))+1):
+    for i in range(3, int(math.sqrt(n))+1, 2):
         if n % i == 0:
             print(f"{n}は素数ではありません")
             break
