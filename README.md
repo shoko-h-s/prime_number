@@ -2,6 +2,6 @@
 \
 ● 試し割り法\
 simple.py　最も単純な実装パターン\
-advance.py　より大きな数でも対処可能な改良型
+advance.py　simple.py の高速化を図ったコード。より大きな数でも対処可能。\
 \
 ● フェルマーテスト（参考）　fermat.py
